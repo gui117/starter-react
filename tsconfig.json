@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ESNext"],
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["dist", "node_modules"],
+  "types": ["vite/client"]
+}
